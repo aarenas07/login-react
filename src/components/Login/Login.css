@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.containerBody{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+}
+
+.videoContainer{
+    width: 35%;
+    height: 100vh;
+}
+
+.loginContainer{
+    width: 65%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.loginContainerForm{
+    width: 800px;
+}
+
+.videoContainer{
+    overflow: hidden;
+}
+video{
+    display: block;
+    width: 100%;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -o-object-fit: cover;
+    object-fit: cover;
+    height: 100vh;
+    aspect-ratio: 900 / 1000;
+}
+
+

@@ -1,3 +1,7 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
 .padre {
     display: flex;
     align-items: center;
@@ -63,13 +67,13 @@
   }
   
   .form-section a:hover {
-    color: #005ce6;
+    color: #165a72;
     text-decoration: underline;
   }
   
   /*Button*/
   .form button {
-    background-color: #0066ff;
+    background-color: #2596be;
     color: #fff;
     border: 0;
     border-radius: 24px;
@@ -81,7 +85,7 @@
   }
   
   .form button:hover {
-    background-color: #005ce6;
+    background-color: #165a72;
   }
 
 /* Inputs */
@@ -128,7 +132,9 @@ input:focus {
 input:focus~.input-border {
     width: 100%;
 }
-
+.input{
+  margin-top: 20px;
+}
 
 /* Boton */
 
@@ -158,4 +164,29 @@ input:focus~.input-border {
     border-width: 0px;
     color: white;
     font-size: 16px;
+}
+
+
+/* Loader */
+
+
+.homeContainer{
+  background-color: black;
+  height: 100vh;
+}
+
+.text-center{
+  color: white;
+}
+
+.cardsContainer{
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+
+.target{
+  margin-top: 35px;
 }
